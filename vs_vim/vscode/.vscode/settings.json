@@ -1,0 +1,26 @@
+{
+    // 关闭自动补全
+    "editor.suggestOnTriggerCharacters": false,
+    "editor.quickSuggestions": {
+        "comments": "off",
+        "strings": "off",
+        "other": "off"
+    },
+    "editor.parameterHints.enabled": false,
+    "editor.inlineSuggest.enabled": false,
+}
+// 1.	"editor.suggestOnTriggerCharacters": false
+// •	控制当你输入某些触发字符（比如 .、(、[ 等）时，是否自动弹出补全建议。
+// •	false → 输入触发字符不会自动弹出补全框。
+// •	举例：你写 console. 时，不会自动弹出 log、error 等建议。
+// 2.	"editor.quickSuggestions": false
+// •	控制输入代码时是否自动显示建议。
+// •	可以细分为 "other", "comments", "strings"，但你设置为 false → 全部类型都不会自动弹出建议。
+// •	举例：你敲 con 不会自动弹出 console。
+// 3.	"editor.parameterHints.enabled": false
+// •	控制函数参数提示（悬浮小提示，比如函数的参数列表）是否启用。
+// •	false → 调用函数时不会显示参数说明。
+// •	举例：console.log( 时，不会显示 (message?: any, ...optionalParams: any[])。
+// 4.	"editor.inlineSuggest.enabled": false
+// •	控制内联建议（像 GitHub Copilot 或 AI 自动补全那种灰色文字提示）是否启用。
+// •	false → 不显示内联自动补全。

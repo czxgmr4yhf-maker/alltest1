@@ -1,0 +1,5 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/st.peter/Applications/vs_vim/vscodeCPP/cpp/test_60f/test_60'
+relocations:     []
+...
